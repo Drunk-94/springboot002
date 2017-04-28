@@ -1,0 +1,11 @@
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    username: root
+    url: jdbc:mysql://127.0.0.1:3306/bms
+    driver-class-name: com.mysql.jdbc.Driver
+    password: 123456
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5Dialect
